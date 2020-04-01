@@ -1,0 +1,32 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+databases = {extras = ["sqlite"],version = "*"}
+pytest = "*"
+pytest-cov = "*"
+asynctest = "*"
+atomicwrites = "*"
+pylint = "*"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+alembic = "*"
+databases = {extras = ["postgresql"],version = "*"}
+python-dotenv = "*"
+python-plugin-sdk = "*"
+psycopg2 = "*"
+connect-sdk-python3 = "*"
+dotenv = "*"
+pylint = "*"
+sqlalchemy = "*"
+uuid4 = "*"
+uuid = "*"
+async-exit-stack = "*"
+async-generator = "*"
+
+[requires]
+python_version = "3.8"
